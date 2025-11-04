@@ -84,7 +84,10 @@ public class Settings : ModSettings
         Scribe_Values.Look(ref PathDegradeThreshold, "pathDegradeThreshold", 80);
         Scribe_Values.Look(ref PathDegradeFactor, "pathDegradeFactor", 0.9f);
         Scribe_Values.Look(ref AnimalEffect, "AnimalEffect", 0.25f);
+        Scribe_Values.Look(ref AdjacentFactor, "AdjacentFactor", 0.2f);
         Scribe_Values.Look(ref SnowClearFactor, "snowClearFactor", 0.5f);
+        Scribe_Values.Look(ref IgnoreWet, "IgnoreWet", true);
         Scribe_Values.Look(ref StoneSmoothThreshold, "stoneSmoothThreshold", 2500);
+        Scribe_Values.Look(ref IncludeAdjacent, "IncludeAdjacent", true);
     }
 }
